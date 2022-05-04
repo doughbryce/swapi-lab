@@ -4,7 +4,7 @@ let names = document.querySelector(`.resident-names`);
 const getResidents = (event) => {
     event.preventDefault();
      
-    axios.get(`https://swapi.dev/api/planets/2`)
+    axios.get(`https://swapi.dev/api/planets/2/?name=alderaan`)
         .then((res) => {
             let residents = res.data.residents;
             for (let i = 0; i < residents.length; i++) {
