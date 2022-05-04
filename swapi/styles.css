@@ -1,0 +1,36 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("https://cdn.shopify.com/s/files/1/1057/4964/products/Star-Wars-Vintage-Movie-Poster-Original-1-Sheet-27x41-5536.jpg?v=1632862826");
+  background-size: cover;
+}
+
+body .get-button {
+  background-image: url("https://s3.amazonaws.com/static.rogerebert.com/uploads/collection/primary_image/the-history-of-star-wars-movies/hero_the-history-of-star-wars-movies.jpg");
+  height: 150px;
+  width: 250px;
+  font-size: x-large;
+  background-size: cover;
+}
+
+body .get-button:hover {
+  background-image: url("https://www.looper.com/img/gallery/questionable-things-we-ignore-in-the-star-wars-franchise/l-intro-1626242861.jpg");
+  color: white;
+}
+
+body .resident-names {
+  padding: 20px;
+  color: white;
+  background-size: cover;
+  background-image: url("https://i.natgeofe.com/n/e484088d-3334-4ab6-9b75-623f7b8505c9/1086_16x9.jpg");
+}
+/*# sourceMappingURL=styles.css.map */
